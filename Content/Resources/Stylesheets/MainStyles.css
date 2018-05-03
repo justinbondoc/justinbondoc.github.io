@@ -1,0 +1,1163 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	color: #242729;
+	font-family: 'Roboto Light', Arial, Avenir, Myriad;
+	font-size: 1em;
+	line-height: 1.7em;
+}
+
+a
+{
+	color: #2d82dc;
+}
+
+a:link
+{
+	color: #2d82dc;
+}
+
+a:visited
+{
+	color: #2d82dc;
+}
+
+a:hover
+{
+	color: #058a95;
+}
+
+ul.menu._Skins_SideMenu.mc-component li > a:hover
+{
+	background-color: #058a95;
+	border-radius: 5px;
+}
+
+ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
+{
+	background-color: #058a95;
+	border-radius: 5px;
+}
+
+ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
+{
+	background-color: #058a95;
+	border-radius: 5px;
+}
+
+ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
+{
+	background-color: #058a95;
+	border-radius: 5px;
+}
+
+ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
+{
+	background-color: #058a95;
+	border-radius: 5px;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #000000;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #058a95;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #000000;
+}
+
+div.example
+{
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	border: solid 2px #5308BE;
+	padding: 20px 40px 10px;
+	line-height: 20pt;
+	letter-spacing: .25;
+	background-image: url('../Images/Icon-Example.png');
+	margin: 20px 10px 20px 0;
+	background-position: 10px 23px;
+}
+
+div.note
+{
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	border: solid 2px #FDC80B;
+	line-height: 20pt;
+	padding-left: 40px;
+	padding-right: 10px;
+	margin: 20px 10px 20px 0;
+	letter-spacing: .25;
+	background-image: url('../Images/Icon-Note.png');
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-position: 10px 25px;
+}
+
+div.GlossaryPageDefinition
+{
+	
+}
+
+div.GlossaryPageHeading
+{
+	
+}
+
+div.GlossaryPageTerm
+{
+	
+}
+
+div.ImagesFloatLeft
+{
+	clear: both;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+div.ImagesFloatRight
+{
+	clear: both;
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+span.Admonition
+{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.noteInDiv
+{
+	mc-auto-number-format: '{b}{color #FDC80B}Note: {/color}{/b}';
+	mc-auto-number-class: Admonition;
+}
+
+div.quotation
+{
+	background-color: #e1e1e1;
+	background-image: url('../Images/QuotationMark.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-color: #b3b3b3;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 6px;
+	font-family: 'Century Gothic';
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 20px;
+	padding-left: 40px;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+div.TightContent
+{
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+h1
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	color: #242729;
+}
+
+h1.Appendix
+{
+	
+}
+
+h1.UserGuideBHeading
+{
+	
+}
+
+h2
+{
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+h3
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+img
+{
+	border: none;
+}
+
+img.AbsolutePosition
+{
+	padding: 5px;
+}
+
+img.ReduceButtonSize
+{
+	max-height: 25px;
+}
+
+img.Thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+p.ChapterNumber
+{
+	mc-auto-number-format: 'CH:CHAPTER {chapnum}';
+	mc-auto-number-position: inside-head;
+	font-family: 'Roboto Black';
+	letter-spacing: 1;
+	font-size: 15pt;
+	line-height: 20pt;
+	color: #058a95;
+	padding: 0px 0px 0px -8px;
+}
+
+li
+{
+	orphans: 2;
+	widows: 2;
+	line-height: 20pt;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+ol
+{
+	line-height: 20pt;
+	font-size: 12pt;
+	letter-spacing: .25;
+}
+
+ol ol
+{
+	line-height: 20pt;
+}
+
+ol.LowerAlpha
+{
+	list-style-type: lower-alpha;
+}
+
+ol.LowerRoman
+{
+	list-style-type: lower-roman;
+}
+
+ol ul
+{
+	list-style-type: square;
+}
+
+ol ul ul
+{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+ol ul ul ul
+{
+	list-style-type: circle;
+}
+
+ul
+{
+	font-size: 14pt;
+	list-style-type: square;
+	line-height: 20pt;
+	letter-spacing: .25;
+}
+
+ul ul
+{
+	list-style-type: disc;
+}
+
+ul ul ul
+{
+	list-style-type: circle;
+}
+
+ul ul ul ul
+{
+	list-style-type: disc;
+}
+
+ul p
+{
+	font-size: 14pt;
+	line-height: 20pt;
+	letter-spacing: .25;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+MadCap|popup
+{
+	color: #058a95;
+}
+
+MadCap|popup:focus
+{
+	color: #058a95;
+}
+
+MadCap|popup:hover
+{
+	color: #058a95;
+}
+
+MadCap|popupHead
+{
+	color: #058a95;
+	font-weight: bold;
+}
+
+MadCap|tocProxy
+{
+	border: none;
+}
+
+MadCap|xref
+{
+	color: #058a95;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #058a95;
+}
+
+MadCap|xref.IndexPageNumber
+{
+	
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: 1.2em;
+}
+
+MadCap|xref
+{
+	color: #058a95;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #058a95;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #058a95;
+}
+
+MadCap|dropDownBody
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+MadCap|dropDown	/*Change the "mc-open-image" and "mc-closed-image" properties to change the icons used in drop-downs*/
+{
+	mc-open-image: url('../Images/Assets/Icons/Arrows/arrow-down-gray.png');
+	mc-closed-image: url('../Images/Assets/Icons/Arrows/arrow-right-gray.png');
+}
+
+/*==Master Page Topic Layout==*/
+
+nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+div.top-bar	/*Contains the breadcrumbs and toolbar*/
+{
+	min-height: 50px;
+	/*Min-height is necessary for topics that are not included in a TOC*/
+}
+
+div.search-container
+{
+	float: right;
+	max-width: 25%;
+}
+
+/*==Elements for the left side of Master Page layout==*/
+
+div.side-menu	/*This is the div that the menu proxy is contained in*/
+{
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+/*Styles that provide the border radius to the menu proxy items*/
+
+ul.menu._Skins_SideMenu.mc-component li > a.selected
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.topic-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.topic-layout > div:nth-child(1)	/*Menu Proxy container*/
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.topic-layout > div:nth-child(2)
+{
+	width: 73%;
+	margin-left: 2%;
+}
+
+p
+{
+	line-height: 20pt;
+	font-size: 12pt;
+	letter-spacing: .25;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+p.CompanyInformation1
+{
+	margin-bottom: 4px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+p.CompanyInformation2
+{
+	color: #6d6d6d;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+p.Copyright
+{
+	
+}
+
+p.CopyrightAddress
+{
+	
+}
+
+p.CopyrightHeading
+{
+	
+}
+
+p.CreatedUsingFlare
+{
+	
+}
+
+p.EmptyPageText
+{
+	
+}
+
+p.ExampleHeadText
+{
+	font-weight: bold;
+	page-break-after: avoid;
+	letter-spacing: 5px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+p.Figure
+{
+	
+}
+
+p.FirstPageOfChapter
+{
+	
+}
+
+p.FrameFooterText
+{
+	
+}
+
+p.FrameFooterText2
+{
+	
+}
+
+p.GlossaryPrintHead
+{
+	font-family: 'Roboto Black';
+	letter-spacing: 1;
+	font-size: 15pt;
+	line-height: 20pt;
+	color: #058a95;
+	padding: 0px 0px 0px -8px;
+	text-transform: uppercase;
+}
+
+p.IndexHeading
+{
+	
+}
+
+p.IndexPrintHead
+{
+	
+}
+
+p.ManualTitle1
+{
+	font-family: 'Roboto';
+	font-size: 15pt;
+	line-height: 20pt;
+	padding-bottom: 15pt;
+	letter-spacing: 1;
+	padding-top: 1.5in;
+}
+
+p.ManualTitle2
+{
+	font-size: 45pt;
+	line-height: 50pt;
+	mc-hyphenate: never;
+}
+
+p.ManualTitleType
+{
+	font-family: 'Roboto Black';
+	font-size: 15pt;
+	line-height: 20pt;
+	text-align: right;
+	text-transform: uppercase;
+	padding-bottom: .5in;
+	vertical-align: 30px;
+	padding-top: 15px;
+}
+
+p.ManualVersionNumber
+{
+	color: #ffffff;
+	font-size: 13pt;
+}
+
+p.MiniTOC1
+{
+	
+}
+
+p.TableCaption
+{
+	
+}
+
+p.TOCHeading
+{
+	font-family: 'Roboto Black';
+	letter-spacing: 1;
+	font-size: 15pt;
+	line-height: 20pt;
+	color: #058a95;
+	padding: 0px 0px 0px -8px;
+}
+
+span.Emphasis
+{
+	font-weight: bold;
+}
+
+span.FigureNum
+{
+	
+}
+
+span.SetOffFirstLevel
+{
+	color: #006b74;
+	font-weight: bold;
+}
+
+span.SetOffSecondLevel
+{
+	color: #445879;
+	font-weight: bold;
+}
+
+span.TableNum
+{
+	
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+tr
+{
+	
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+div.ContentRow
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ContentRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ContentRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ContentRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ContentRow > div:nth-child(1)
+{
+	width: 58.333%;
+	margin-left: 0%;
+}
+
+div.ContentRow > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 8.3333%;
+}
+
+@media print
+{
+	body
+	{
+		margin: 8px;
+		font-size: 13pt;
+		line-height: normal;
+	}
+
+	/* Cross-References*/
+
+	MadCap|xref
+	{
+		color: #242729;
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		
+	}
+
+	/* Drop-Downs*/
+
+	MadCap|dropDown
+	{
+		margin: 0;
+		padding: 0;
+		margin-top: 16px;
+		border-bottom: none 2px #000000;
+	}
+
+	MadCap|dropDown.FourthLevel
+	{
+		background-color: transparent;
+		margin-left: 0px;
+		margin-top: 6px;
+	}
+
+	MadCap|dropDown.SecondLevel
+	{
+		background-color: transparent;
+		margin-left: 0px;
+		margin-top: 6px;
+	}
+
+	MadCap|dropDown.ThirdLevel
+	{
+		background-color: transparent;
+		margin-left: 0px;
+		margin-top: 6px;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: none;
+	}
+
+	MadCap|dropDownHead
+	{
+		font-size: 12pt;
+		padding: 5px 5px 5px 0px;
+		margin-top: 0px;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		
+	}
+
+	/* Footnotes*/
+
+	MadCap|footnoteBlock
+	{
+		font-size: 9pt;
+	}
+
+	MadCap|footnotesBlock
+	{
+		border-top-color: #058a95;
+	}
+
+	/* Glossaries*/
+
+	div.GlossaryPageDefinition
+	{
+		color: #242729;
+		font-size: 13pt;
+	}
+
+	div.GlossaryPageHeading
+	{
+		border-bottom-color: #058a95;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		color: #058a95;
+		font-size: 13pt;
+	}
+
+	div.GlossaryPageTerm
+	{
+		color: #242729;
+		font-size: 12pt;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top: none;
+		color: #ffffff;
+	}
+
+	/* Headings*/
+
+	h1
+	{
+		color: #058a95;
+		font-family: Roboto;
+		font-size: 35pt;
+		line-height: 40pt;
+		page-break-before: avoid;
+		padding-bottom: 0px;
+	}
+
+	h1.SingleChapter
+	{
+		background-color: transparent;
+		border-bottom: none;
+		font-size: 22pt;
+		line-height: 24pt;
+		margin-bottom: 20px;
+		margin-left: 0;
+		mc-auto-number-class: ;
+		padding-left: 0px;
+		padding-top: 0px;
+		mc-auto-number-format: '{ }';
+		mc-auto-number-position: inside-tail;
+	}
+
+	h2
+	{
+		page-break-before: always;
+		font-family: Roboto;
+		font-size: 25pt;
+		line-height: 30pt;
+	}
+
+	h3
+	{
+		mc-heading-level: 0;
+		font-size: 19pt;
+		font-family: Roboto;
+	}
+
+	h3.PageBreakBefore
+	{
+		page-break-before: always;
+	}
+
+	h4
+	{
+		font-family: Roboto;
+		font-size: 15pt;
+		line-height: 18pt;
+	}
+
+	h5
+	{
+		font-weight: normal;
+		mc-heading-level: 0;
+	}
+
+	/* Images*/
+	/* Indexes*/
+
+	MadCap|indexProxy
+	{
+		border-top: none;
+	}
+
+	MadCap|indexProxy.Column2
+	{
+		mc-column-count: 2;
+		mc-index-headings: true;
+	}
+
+	p.IndexHeading
+	{
+		font-size: 13pt;
+		padding-top: 16px;
+		text-align: left;
+	}
+
+	p.IndexPrintHead
+	{
+		font-family: 'Roboto Black';
+		letter-spacing: 1;
+		font-size: 15pt;
+		line-height: 20pt;
+		color: #058a95;
+		text-transform: uppercase;
+		padding: 0px 0px 0px -8px;
+	}
+
+	p.Index1
+	{
+		margin-bottom: 4px;
+		margin-top: 4px;
+	}
+
+	p.Index2
+	{
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	/* Lists*/
+
+	li
+	{
+		orphans: 2;
+		widows: 2;
+		line-height: 15pt;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	li.PageBreakBefore
+	{
+		font-size: 10pt;
+		page-break-before: always;
+		margin-top: 18pt;
+		mc-printer-page-margin-top: 18pt;
+	}
+
+	ol
+	{
+		line-height: 15pt;
+		font-size: 13pt;
+	}
+
+	ol ol
+	{
+		line-height: 17pt;
+	}
+
+	ol p
+	{
+		font-size: 13pt;
+		line-height: 15pt;
+	}
+
+	ol.LowerAlpha
+	{
+		margin-left: 30px;
+	}
+
+	ol.LowerRoman
+	{
+		margin-left: 30px;
+	}
+
+	ul
+	{
+		font-size: 13pt;
+		line-height: 15pt;
+	}
+
+	ul p
+	{
+		line-height: 15pt;
+		font-size: 13pt;
+	}
+
+	ul.FirstLevel
+	{
+		margin-left: 30px;
+	}
+
+	ul.SecondLevel
+	{
+		margin-left: 30px;
+	}
+
+	ul.ThirdLevel
+	{
+		margin-left: 30px;
+	}
+
+	/* Notes*/
+
+	div.note
+	{
+		font-size: 13pt;
+		line-height: 15pt;
+		background-image: url('../Images/icon-note-300dpi.jpg');
+		margin: 10px 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-position: 10px 22px;
+	}
+
+	p.note
+	{
+		font-size: 13pt;
+		line-height: 15pt;
+		background-image: url('../Images/icon-note-300dpi.jpg');
+		margin: 10px 0px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		background-position: 10px 22px;
+	}
+
+	/* Examples*/
+
+	div.example
+	{
+		background-color: #FFFFFF;
+		background-repeat: no-repeat;
+		border: solid 2px #5308BE;
+		padding: 20px 40px 10px;
+		line-height: 20pt;
+		letter-spacing: .25;
+		background-image: url('../Images/Icon-Example-300dpi.jpg');
+		margin: 20px 10px 20px 0;
+		background-position: 10px 23px;
+	}
+
+	/* Page and Frame Breaks*/
+
+	p.PageBreakAfter
+	{
+		page-break-after: always;
+	}
+
+	p.PageBreakBefore
+	{
+		margin-top: 18px;
+		page-break-before: always;
+	}
+
+	/* Paragraphs*/
+
+	p
+	{
+		orphans: 2;
+		widows: 2;
+		line-height: 14pt;
+		font-size: 13pt;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	td
+	{
+		font-size: 10pt;
+	}
+
+	th
+	{
+		font-size: 12pt;
+	}
+
+	tr
+	{
+		page-break-inside: avoid;
+	}
+}
+
+@media only screen and (max-width: 1279px)
+{
+	.row.nav-search
+	{
+		display: block;
+	}
+
+	div.search-container
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.top-bar
+	{
+		min-height: 0;
+	}
+
+	.row.nav-search
+	{
+		display: block;
+	}
+
+	div.search-container
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
