@@ -1,14 +1,15 @@
 /*<meta />*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Playfair+Display+SC');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
 
 
-/*Created by Justin Bondoc*/
+
+
+/*Created by Justin Bondoc 
+Styling listed by individual Elements then Layouts */
 body
 {
-	font-family: 'Raleway', 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.5em;
 	margin: 0;
 	color: #575757;
@@ -16,12 +17,13 @@ body
 
 h1
 {
-	font-family:  'Raleway','Roboto', sans-serif;
+	font-family:  'Roboto', sans-serif;
 	font-size: 2.75em;
-	color: #000;
-	font-weight: 900;
+	color: #f83600;
+	font-weight: 100;
 	line-height: 1;
 }
+
 
 h2
 {
@@ -104,58 +106,31 @@ a:link
 	color: #000;
 }
 
-a.appt-btn
+a.btn
 {
 	display: inline-block;
 	text-decoration: none;
-	color: #FFF;
-	transition: all 1s cubic-bezier(.25,.8,.25,1);
-	border-radius: 4px;
-	border: 1px solid #FFF;
+	color: #f83600;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	border: 1px solid #f83600;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 11.5px;
 	padding-right: 11.5px;
-	margin-top: 40px;
+	font-weight: 100;
 	
 }
 
-a.appt-btn:hover
+a.btn:hover
 {
-	color: #FFF;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	color: #fff;
+	background-color: #f83600;
+	letter-spacing: 1px;
 }
 
 
 
-div.profile-tiles a.appt-btn /*Buttons used on Barber tiles*/
-{
-	width: 100%;
-	padding: 10px 0;
-	margin: 0;
-	background-color: #658baf;
-	border: none;
-}
-
-a.page-btn
-{
-	display: inline-block;
-	text-decoration: none;
-	color: #FFF;
-	background-color: #ff7979;
-	transition: all 1s cubic-bezier(.25,.8,.25,1);
-	border-radius: 4px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 11.5px;
-	padding-right: 11.5px;
-	margin-top: 10px;
-}
-
-a.page-btn:hover
-{
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+/*==Layout==*/
 
 .top-bar
 {
@@ -194,8 +169,6 @@ a.page-btn:hover
 	text-decoration: none;
 }
 
-
-
 .top-bar ul {
     background-color: transparent;
     padding: 10px 0;
@@ -219,19 +192,20 @@ div.page-hero
 {
 	padding-bottom: 150px;
 	padding-top: 250px;
-	background-color: #d3d3d3;
-	background-image: url('../Images/banner-blur.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center 0;
-	margin-top: -100px;
+	background: linear-gradient(to bottom right, #f38c00, #f83600);
+	padding: 20% 20%;
+}
+
+.page-hero h1
+{
+	color: #fff;
+	font-weight: 100;
+	font-size: 3em;
 }
 
 .accent /*Gradient used under the Home-Page hero*/
 {
-	background: linear-gradient(to right, #e9402f, #006db1);
+	background: linear-gradient(to right, #dadada, #fafafa);
     height: 4px;
 }
 
