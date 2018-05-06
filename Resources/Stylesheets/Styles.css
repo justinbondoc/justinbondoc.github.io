@@ -273,12 +273,18 @@ div.project
 	background-color: #fafafa;
 }
 
+div.project-grid
+{
+	border-bottom: 1px solid #dadada;
+	padding: 50px 0;
+}
 
 div.project-grid::before
 {
 	content: ' ';
 	display: table;
 }
+
 
 div.project-grid::after
 {
@@ -287,16 +293,13 @@ div.project-grid::after
 	clear: both;
 }
 
-div.project-grid
-{
-	border-bottom: 1px solid #dadada;
-}
 div.project-grid > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 10px;
+	
 }
 
 div.project-grid > div:nth-child(1)
@@ -428,28 +431,6 @@ div.footer p
 @media only screen and (max-width: 1279px)
 {
 
-	div.project-grid
-	{
-		width: 75%;
-	}
-
-	div.project-grid > div:nth-child(1)
-	{
-		width: 32%;
-		margin-left: 1%;
-	}
-
-	div.project-grid > div:nth-child(2)
-	{
-		width: 32%;
-		margin-left: 1%;
-	}
-
-	div.footer-container
-	{
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
 
 	div.footer-grid > div:nth-child(1)
 	{
@@ -467,7 +448,10 @@ div.footer p
 
 @media only screen and (max-width: 767px)
 {
-	
+	.layout
+	{
+		width: 95%;
+	}
 
 	a.appt-btn
 	{
@@ -501,11 +485,6 @@ div.footer p
 	{
 		width: 100%;
 		margin-left: 0;
-	}
-
-	div.info-container
-	{
-		width: 95%
 	}
 
 	div.about-grid > div
