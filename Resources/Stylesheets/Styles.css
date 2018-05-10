@@ -448,6 +448,11 @@ div.footer p
 @media only screen and (max-width: 1279px)
 {
 
+	div.project-grid > div:nth-child(2)
+	{
+		width: 35%;
+		margin-left: 10%;
+	}
 
 	div.footer-grid > div:nth-child(1)
 	{
@@ -476,17 +481,24 @@ div.footer p
 		width: 95%;
 	}
 
-	a.appt-btn
+	a.btn
 	{
-		width: 60%;
+		width: 50%;
 	}
-
+	img.project
+	{
+		max-width: 50%;
+	}
 
 	img.logo
 	{
 		max-width: 95%;
 	}
-
+	
+	div.project-grid
+	{
+		padding: 0;
+	}
 	div.project-grid > div
 	{
 		margin-top: 2%;
@@ -499,12 +511,6 @@ div.footer p
 	}
 
 	div.project-grid > div:nth-child(2)
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-
-	div.project-grid > div:nth-child(3)
 	{
 		width: 100%;
 		margin-left: 0;
@@ -529,6 +535,15 @@ div.footer p
 		margin-left: 0%;
 		margin-bottom: 10%;
 		text-align: center;
+	}
+	
+	div.skills-grid > div:nth-child(1)
+	{
+		width: 100%;
+	}
+	div.skills-grid > div:nth-child(2)
+	{
+		width: 100%;
 	}
 
 	p.footer
