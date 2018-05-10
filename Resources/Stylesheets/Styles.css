@@ -398,13 +398,20 @@ div.skills-grid > div
 
 div.skills-grid > div:nth-child(1)
 {
-	width: 45%;
+	width: 28.3%;
 	margin-left: 5%;
 }
 
 div.skills-grid > div:nth-child(2)
 {
-	width: 45%;
+	width: 28.3%;
+	margin-left: 5%;
+
+}
+
+div.skills-grid > div:nth-child(3)
+{
+	width: 28.3%;
 	margin-left: 5%;
 
 }
@@ -570,6 +577,10 @@ div.footer p
 		width: 100%;
 	}
 	div.skills-grid > div:nth-child(2)
+	{
+		width: 100%;
+	}
+	div.skills-grid > div:nth-child(3)
 	{
 		width: 100%;
 	}
