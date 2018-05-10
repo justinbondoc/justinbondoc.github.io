@@ -84,7 +84,7 @@ img.fifty
 img.project
 {
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-
+	border: 1px solid #dadada;
 }
 
 img.project:hover
