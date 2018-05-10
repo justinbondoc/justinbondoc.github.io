@@ -101,6 +101,7 @@ img.project
 img.project:hover
 {
 	border: 1px solid #f83600;
+	opacity: 0.8;
 }
 
 .project.no-link:hover
