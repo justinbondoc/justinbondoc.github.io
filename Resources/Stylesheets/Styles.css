@@ -128,7 +128,7 @@ a.btn:hover
 
 
 
-/*==Layout==*/
+/*==Navigation==*/
 
 .top-bar
 {
@@ -183,6 +183,8 @@ a.btn:hover
     border-radius: 4px;
     color: #575757;
 }
+
+/*== Layout ==*/
 
 .section
 {
