@@ -89,7 +89,11 @@ img.fifty
 
 img.project
 {
-	transition: all 0.8s cubic-bezier(.25,.8,.25,1);
+	transition: all 1s ease;
+	 -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
 	border: 1px solid #dadada;
 }
 
@@ -110,10 +114,15 @@ img.project:hover
 
 a:visited
 {
-	color: #000;
+	color: #f83600;
 }
 
 a:link
+{
+	color: #f83600;
+}
+
+a:hover
 {
 	color: #000;
 }
@@ -124,6 +133,10 @@ a.btn
 	text-decoration: none;
 	color: #f83600;
 	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	 -webkit-transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    -moz-transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    -o-transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    -ms-transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 	border: 1px solid #f83600;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -146,7 +159,11 @@ a.btn:hover
 
 .top-bar
 {
-	transition: 0.5s all;
+	transition: all 0.5s ;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s);
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -188,7 +205,6 @@ a.btn:hover
 }
 
 .top-bar li {
-	transition: all 1s cubic-bezier(.25,.8,.25,1);
 	display: inline-block;
 }
 
@@ -212,6 +228,10 @@ a.btn:hover
 	margin-left: auto;
 	margin-right: auto;
 	transition: all 1s cubic-bezier(.25,.8,.25,1);
+	 -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
 }
 
 /*==Page Hero Start==*/
