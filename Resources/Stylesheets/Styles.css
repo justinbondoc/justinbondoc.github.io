@@ -70,6 +70,12 @@ p.info-title
 	color: #000;
 	margin-top: 40px;
 }
+
+p.footer
+{
+	text-align: right;
+}
+
 img
 {
 	max-width: 100%;
@@ -372,7 +378,7 @@ div.footer
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #202e3c;
+	background-color: #384858;
 }
 
 div.footer-grid a
@@ -415,6 +421,7 @@ div.footer-grid > div:nth-child(1)
 {
 	width: 50%;
 	margin-left: 0%;
+	padding-right: 20px;
 }
 
 div.footer-grid > div:nth-child(2)
@@ -450,6 +457,12 @@ div.footer p
 
 @media only screen and (max-width: 767px)
 {
+
+	div.page-hero
+	{
+		padding: 20% 10% 20% 30%;
+	}
+
 	.layout
 	{
 		width: 95%;
@@ -510,6 +523,11 @@ div.footer p
 		text-align: center;
 	}
 
+	p.footer
+	{
+		text-align:center;
+	}
+
 	div.footer-grid
 	{
 		text-align: center;
@@ -518,12 +536,13 @@ div.footer p
 	div.footer-grid > div:nth-child(1)
 	{
 		width: 100%;
-
+		padding: 0;
 	}
 
 	div.footer-grid > div:nth-child(2)
 	{
 		width: 100%;
 		border: none;
+		padding: 0;
 	}
 }
