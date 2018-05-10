@@ -109,6 +109,11 @@ img.project:hover
 	border: 1px solid #dadada;
 }
 
+ul
+{
+	list-style-type: circle;
+}
+
 
 
 /*==Buttons==*/
@@ -363,10 +368,7 @@ div.skills *
 	color: #fff;
 }
 
-div.skills ul
-{
-	list-style-type: circle;
-}
+
 
 div.skills-grid::before
 {
